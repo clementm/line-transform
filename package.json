@@ -1,6 +1,6 @@
 {
   "name": "line-transform",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "simple utility to split buffers/streams into lines",
   "main": "index.js",
   "scripts": {
