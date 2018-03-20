@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - node  
+sudo: enabled
+
+branches:
+  only:
+    - /^v(\d+\.){0,2}\d+$/
+
+before_install:
+  - 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
+
+script:
+  - set -e
+  - npm i
+  - npm test
+  - npm publish --access public

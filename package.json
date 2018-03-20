@@ -1,0 +1,36 @@
+{
+  "name": "line-transform",
+  "version": "0.0.0",
+  "description": "simple utility to split buffers/streams into lines",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm test",
+    "test": "jest"
+  },
+  "files": [
+    "index.js",
+    "line-splitter.js",
+    "line-transform.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1ch3lcl/line-transform.git"
+  },
+  "keywords": [
+    "line",
+    "stream",
+    "transform",
+    "buffer",
+    "node"
+  ],
+  "author": "Clément Michel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m1ch3lcl/line-transform/issues"
+  },
+  "homepage": "https://github.com/m1ch3lcl/line-transform#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^22.4.2"
+  }
+}
